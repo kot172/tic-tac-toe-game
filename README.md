@@ -1,5 +1,4 @@
-# tic-tac-toe-game
-
+[Поиграем?](https://kot172.github.io/tic-tac-toe-game/)
 
 <h1>Крестики нолики</h1>
 
