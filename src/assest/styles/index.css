@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    align-items: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.message {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
